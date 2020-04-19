@@ -1,0 +1,43 @@
+#rectangle{
+    width:200px;
+    height:100px;
+    background-color: aqua;
+    outline:  2px dashed;
+    outline-color: brown;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#rectangle2{
+    background-color: yellow;
+    width:200px;
+    height:100px;
+    margin-top: 20px;
+    outline: dotted brown;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#rectangle3{
+background-color: aqua;
+width:200px;
+height:100px;
+margin-top: 20px;
+border: 10px inset blue;
+margin-left: auto;
+margin-right: auto;
+
+
+}
+#rectangle4{
+    background-color: aqua;
+    width:200px;
+    height:100px;
+    margin-top: 20px;
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-left-color:black;
+    margin-left: auto;
+    margin-right: auto;
+
+}
