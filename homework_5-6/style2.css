@@ -1,0 +1,281 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;  
+}
+@font-face{
+    src: url(fonts/ChronicaPro-Regular.ttf);
+    font-family: "whateveritis";
+}
+@font-face{
+    src: url(fonts/bahij-sultannahia.ttf);
+    font-family: 'whenever';
+}
+a{
+    font-size: 25px;
+    text-decoration: none;
+    font-family: 'whenever';
+    color: black;
+}
+a:hover{
+color: rgb(106, 154, 241);
+}
+
+
+
+
+
+
+
+.main1{
+    padding: 20px ;
+    position: absolute;
+    top: 6%;
+    bottom: 5%;
+    right: 2%;
+    left:2%;
+    background-color: lightgray;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'whenever';
+}
+nav{
+   display: flex;
+   justify-content: space-between;
+   margin: 10px auto;
+   width: 30%;
+   height: 50px;
+   
+}
+
+.icon {
+    width: 55px;
+    height: 50px;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+.uil-monitor{
+    background-color:rgb(106, 154, 241);
+    border-radius: 10px;
+    color: white;
+}
+.icon:hover{
+    overflow: visible;
+    width: 140px;
+    margin-left: 60px;
+    height: 50px;
+    background-color: rgb(106, 154, 241);
+    -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition: width 1s, height 1s, background-color 1s, transform 1s;
+    z-index: 99;
+    color: white;
+}
+ /*-------------icons style----------*/
+ .sidebar{
+     width: 18%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+aside{
+    width: 50%;
+    display: flex;
+    height: 50%;
+    font-size: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color:#fafafa;
+    border-radius: 20px;
+    padding-bottom: 10%;
+  
+}
+
+/*----------rest-------*/
+.rest{
+    width: 100%;
+    height: 100%;
+   display: flex;
+   flex-direction:row;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   
+}
+.grey{
+    font-family: 'whateveritis';
+    font-size: 13px;
+    color: lightgray;
+}
+/*---------------account--------------*/
+
+
+.andy_block{
+    width: 45%;
+    height: 30%;
+}
+.company_bl{
+    height: 100%;
+    width: 50%;
+}
+
+.change_bl{
+    width: 45%;
+    height: 65%;
+    margin-top: -40.3%;
+}
+
+.andy_block, .company_bl, .change_bl{
+    background-color: #fafafa;
+    border-radius: 20px;
+}
+
+
+#establish_pic{
+    width: 50px;
+    height: 50px;
+}
+#block_pic{
+    height: 40px;
+    width: 50px;
+}
+
+.lock_pic{
+    background-color:rgb(106, 154, 241) ;
+}
+.uni_pic{
+    background-color: orange;
+    
+}
+.lock_pic, .uni_pic{
+    padding:15px 15px;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+
+
+.andy_block, .company_bl, .change_bl{
+    padding: 20px;
+}
+
+.andy_block{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 60px;
+}
+.andy_block span{
+    margin-left: 20px;
+}
+.black{
+    font-size: 25px;
+}
+
+.input1, .input2, .input3, .input4{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  
+}
+.form1 input[type='text']{
+    line-height: 40px;
+    border-radius: 15px;
+    border:1px solid lightgray;
+    box-shadow: 2px 3px 3px lightgrey;
+    text-indent: 20px;
+    font-family: 'whateveritis';
+    font-size: 13px;
+}
+
+
+.top_block, .top_blok{
+    display: flex;
+    flex-direction:row;
+}
+.top_block span, .top_blok span{
+    margin-left: 10px;
+    font-size: 13px;
+}
+.form1{
+    margin-top: 30px;
+}
+
+.form1 input[type='button']{
+    margin-left: 85%;
+}
+  input[type='button']{
+   width: 70px;
+   height: 40px;
+   border: 1px solid rgb(106, 154, 241);
+   background-color: rgb(106, 154, 241);
+   border-radius: 10px;
+  color: white;
+  
+}
+  
+
+
+.form2{
+    width: 100%;
+    margin-top: 60px;
+    position: relative; 
+}
+
+.form2 input[type='text']{
+    line-height: 40px;
+    border-radius: 15px;
+    border:1px solid lightgray;
+    box-shadow: 2px 3px 3px lightgrey;
+    text-indent: 20px;
+    font-family: 'whateveritis';
+    font-size: 13px;
+}
+.inpt, .inpt1{
+    display: flex;
+    flex-direction: column;
+}
+#inpt1, #inpt2{
+    width: 100%;
+}
+#inpt1{
+    height: 60px;
+    display: block;
+}
+#inpt2{
+    display: block;
+    height: 80px;
+}
+#inpt3, #inpt4, #inpt5, #inpt6{
+    height: 60px;
+    display: block;
+    width: 45%;
+}   
+
+.inpt5{
+    position: absolute;
+    left: 55%;
+    width: 100%;
+    bottom: 24%;
+}
+.inpt6{
+    position: absolute;
+    left: 55%;
+    width: 100%;
+    bottom:0.5% ;
+}
+
+.form2 input[type='button']{
+    width: 70px;
+   height: 40px;
+   border: 1px solid rgb(106, 154, 241);
+   background-color: rgb(106, 154, 241);
+   border-radius: 10px;
+   color: white;
+   position: absolute;
+   right: 0;
+   bottom: -20%;
+}
