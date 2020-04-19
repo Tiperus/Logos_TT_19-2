@@ -1,0 +1,85 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(195, 222, 231);
+}
+
+
+.pul{
+    position: absolute;
+    left: 40%;
+    top: 300px;
+}
+p{
+    position: absolute;
+    width: 100%;
+    left: 47%;
+    top: 25%;
+    font-weight: 500;
+    font-size: 30px;
+}
+.pul{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    
+}
+div{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 10%;
+   
+}
+.box1{
+    background-color: white;
+    animation: linear 0.7s pulse infinite;
+}
+.box2{
+    background-color: red;
+    animation: linear 0.7s pulse infinite;
+}
+.box3{
+    background-color: orange;
+    animation: linear 0.7s pulse infinite;
+}
+.box4{
+    background-color: gold;
+    animation:linear 0.7s pulse infinite;
+}
+.box5{
+    background-color: rgb(31, 92, 190);
+    animation: linear 0.7s pulse infinite;
+}
+.box6{
+    background-color: rgb(33, 136, 110);
+    animation: linear 0.7s pulse infinite;
+}
+.box7{
+    background-color: purple;
+    animation: linear 0.7s pulse infinite;
+}
+.box8{
+    background-color: black;
+     animation: linear 0.7s pulse infinite;
+}
+
+
+@-webkit-keyframes pulse{
+    0% {
+        -webkit-box-shadow: 0 0 0 0 white;
+      }
+      70% {
+          -webkit-box-shadow: 0 0 0 10px rgb(195, 222, 231);
+  
+      }
+      100% {
+          -webkit-box-shadow: 0 0 0 25px transparent;
+      }
+    }
+

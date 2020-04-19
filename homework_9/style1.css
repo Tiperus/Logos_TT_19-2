@@ -1,0 +1,54 @@
+body{
+    background-image: url(images/space.jpg);
+}
+#earth{
+    position: relative; 
+    left: 35%;
+    top: 170px;
+    z-index: 1;
+}
+#moon{
+    position: absolute;
+    top: 300px;
+    z-index: 0;
+    left:800px;
+    animation: linear 0.7s orbita forwards infinite;
+    animation-play-state: running;
+
+}
+
+
+
+@-webkit-keyframes orbita{
+    0% {}
+    25% {
+        opacity: 0.8;
+        z-index: 0;
+    }
+    26%{
+        left: 900px;
+        z-index: 2;
+       
+    }
+  
+70%{
+    left: 400px;
+    z-index: 2;
+   
+}
+71%{
+    z-index: 0;
+}
+
+80%{
+    left: 500px;
+    z-index: 0;
+}
+ 100%{
+
+     left: 800px;
+   
+ }
+
+}
+
