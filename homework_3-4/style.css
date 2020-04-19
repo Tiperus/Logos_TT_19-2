@@ -1,0 +1,345 @@
+*{
+    /* padding: o; */
+    box-sizing: border-box;
+    margin: 0;
+}
+#hD{
+    background-color: tan;
+    width: 100%;
+    height:150px;
+    
+}
+.shapka{
+    background-color:rgb(129, 95, 39);
+    height:80px;
+    width: 300px;
+    float: right;
+    margin: 35px 120px;
+}
+.contain-main{
+      height: 60px;
+      width: 200px;
+     margin: 10px 450px;  
+     background-color: antiquewhite;  
+        color: black; 
+        text-align: center;
+        line-height: 60px;
+
+
+} 
+.box-main{
+    width: 100%;
+    height: 100px;
+}
+.box1{
+    background-color:rgb(57, 90, 57);
+    text-align: center;
+    width: 20%;;
+    height:inherit;
+    float: left;
+    
+
+}
+.box2{
+    background-color: lightskyblue;
+    text-align: center;
+    width:20%;
+    height:inherit;
+    float: left;
+}
+   
+ .box3{
+    background-color: navajowhite;
+    text-align: center;
+    width:20%;
+    height:inherit;
+    float: left;
+ }
+.box4{
+    background-color: peru;
+    text-align: center;
+    width:20%;
+    height:inherit;
+    float: left;
+    
+}
+.box5{
+background-color: rebeccapurple;
+text-align: center;
+width:20%;
+height:inherit;
+float: left;
+}
+
+.more{
+    background-color: rgb(9, 41, 9);
+    height:400px;
+    float: left;
+    width: 33.3%;
+}
+.accid{
+    background-color: blanchedalmond;
+    height:400px;
+    float: left;
+    width: 33.3%;
+}
+
+.shapka{
+    background-color:rgb(129, 95, 39);
+    height:80px;
+    width:80%;
+}
+.block1{
+    height:40px;
+    width: inherit;
+    text-align: center;
+    float:left;
+    background-color: lightgreen;
+
+}
+.block2{
+    height:40px;
+    width:inherit;
+    text-align: center;
+    float:left;
+    background-color: orchid;
+}
+.block3{
+    height:40px;
+    width:inherit;
+    text-align: center;
+    float:left;
+    background-color: orange;
+}
+.block4{
+    width: 100%;
+    height: 60px;
+    background-color: lavenderblush;
+    float:left;
+    
+}
+.tochka1{
+    width:calc(100%/ 2);
+    height: 30px;
+    background-color: red;
+    margin: 10px 105px;
+    padding-top:20px;
+    
+
+}
+.tochka2{
+    width:calc(100%/ 3);
+    height: 10px;
+    background-color: black;
+    margin:  0 auto;
+    
+   
+}
+.block5{
+    width: 100%;
+    height: 60px;
+    background-color:lightgray;
+    float: left;
+    text-align: center;
+   
+}
+
+.block6{
+    background-color: forestgreen;
+    height:240px;
+    width:65px;
+    float:left;
+    text-align: center;
+
+}
+.block7{
+background-color: darkgrey;
+height:60px;
+width:calc(100% - 65px);
+float:left;
+text-align: center;
+
+}
+.block8{
+background-color: darkorchid;
+width: calc((100% - 65px)/2);
+height: 65px;
+float:left;
+text-align: center;
+}
+.block9{
+    background-color:lightyellow;
+    width: calc((100% - 65px)/2);
+    height: 65px;
+    float:left;
+    text-align: center;
+
+
+}
+.block10{
+    background-color: lightpink;
+    height: 115px;
+    width: calc(100% - 65px);
+    float: left;
+    text-align: center;
+
+}
+.fit1{
+    background-color: darkslategray;
+    height: 40px;
+    width: 100%;;
+    text-align: center;
+    float: left;
+}
+.fit2{
+    width: calc(100% / 3);
+    height:360px;
+    background-color: darkturquoise;
+    text-align: center;
+    float: left;
+    padding-bottom: 0;
+}
+.fit3{
+    width: 80px;
+    height: 250px;
+    background-color: red;
+    text-align: center;
+    float: left;
+    margin-top:110px;
+}
+.fit4{
+width: 78px;
+height:110px;
+float: left;
+margin-top: 232px;
+background-color: lightgreen;
+
+
+}
+.main-c{
+    width: calc(100% / 3);
+    height:360px;
+    text-align: center;
+    float: left;
+    
+}
+
+.fit5{
+    width: 160px;
+    height: 90px;
+    background-color: rgb(123, 191, 233);
+    text-align: center;
+     float: left; 
+}
+.fit6{
+    width: 160px;
+    height: 90px;
+    background-color: blue;
+    text-align: center;
+    float: left; 
+}
+.fit7{
+    width: 160px;
+    height: 90px;
+    background-color: rgb(54, 5, 56);
+    text-align: center;
+    float: left;
+}
+.fit8{
+    width: 80px;
+    height: 90px;
+    background-color: rgb(226, 210, 172);
+    text-align: center;
+    float: left;
+}
+.fit9{width: 49%;
+    height: 90px;
+    background-color: rgb(194, 125, 36);
+    text-align: center;
+    float: left;
+}
+.main-d{
+    width: calc(100% / 3);
+    height:360px;
+    text-align: center;
+    float: left;
+
+}
+.fit10{
+    width: 160px;
+    height: 90px;
+    background-color: rgb(58, 182, 176);
+    text-align: center;
+    float: left;
+
+}
+.fit11{
+    width: 160px;
+    height: 90px;
+    background-color: rgb(8, 41, 39);
+    text-align: center;
+    float: left;
+
+}
+.fit12{
+    height: 180px;
+    width: 160px;
+    text-align: center;
+    background-color: rgb(211, 172, 44);
+    float: left;
+}
+.text{
+    background-color: green;
+    height: 400px;
+    float: left;
+    width: 33.3%;
+}
+.text1{
+width: 150px;
+height: 100px;
+float: left;
+background-color: lightgray;
+text-align: center;
+line-height: 100px;
+margin-top: 10px;
+margin-left: 165px;
+}
+.text2{
+   width: 130px;
+    height: 270px;
+    background-color: darkslategray;
+    margin-top: 130px;
+    margin-left: 170px;
+}
+.form1{
+    width: 130px;
+    height:75px ;
+    color: black;
+    text-align: center;
+    background-color: darkred;
+
+}
+.form2{
+    width: 65px;
+    height: 195px;
+    background-color: lightpink;
+    color: black;
+    text-align: center;
+    float: left;
+}
+.form3{
+    width: 65px;
+    height: 195px;
+    background-color: lightgreen;
+    color: black;
+    text-align: center;
+    float: left;
+}
+#footer{
+    width: 1440px;
+    height: 210px;
+    color: black;
+    text-align: center;
+    background-color: rgb(95, 90, 87);
+    float: left;
+}

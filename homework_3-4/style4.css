@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+   
+    color: white;
+    text-shadow:  2px 4px 2px black;
+    font-family: 'sunday';
+    font-size: 130px;
+    line-height: 1000px;
+    margin: 0 auto;
+    
+}
+.wind{
+    float: left;
+    text-align: center;
+    height: 1000px;
+    width: calc(100%/ 7);
+}
+.block1{
+    
+    background-color: red;
+     background: linear-gradient(to bottom, red ,darkred);
+     
+    }
+        .block2{
+           
+    background: linear-gradient( #585faa,#e66465);
+    }
+        .block3{
+            
+    background: linear-gradient(turquoise,rgb(255, 165, 0));
+    }
+        .block4{
+            
+    background: linear-gradient(rgb(95, 71, 71), rgb(33, 93, 33))
+    
+    }
+        .block5{
+           
+    background: linear-gradient(rgb(238, 70, 84), rgb(202, 141, 141))
+    
+    }
+        .block6{
+            
+    background: linear-gradient(red ,darkred);
+    }
+        .block7{
+            
+    background: linear-gradient(rgba(29, 20, 17, 0.534), rgb(211, 146, 126));
+    } 
+    
+    @font-face{
+        font-family: 'sunday';
+      src: url(fonts/sunday/Sunday-Regular.ttf);}

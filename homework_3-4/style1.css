@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-block{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 100px;
+
+}
+.header{
+    color:rgb(156, 18, 18);
+    background-color: rgba(190, 190, 190, 0.637);
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+    
+}
+.pic1{
+    border: double;
+    border-color: lightgray;
+    
+}
+.picture{
+    border: double;
+    border-color: lightgray;
+}
+.block2{
+    width: 450px;
+    font-family: 'marvel';
+    margin-right: 100px;
+}
+
+.block1{
+    width: 647px;
+}
+.marvel{
+    margin-top: 45px;
+    height: 80px;
+    width: 647px;
+    display: flex;
+    justify-content: space-between;
+}
+h3{
+    font-size: 22px;
+}
+.overlay:hover{
+    display: block;
+    background-color: red;
+    opacity: 0.5;
+    transition: .5s ease;
+    text-align: center;
+}
+
+h2:hover{
+    font-size: 9rem;
+    text-align: center;
+     font-weight: bold;
+     padding-top: 25px;
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+    from {
+     color: rgb(207, 192, 192);
+   text-shadow: 0 0 10px #ff0015, 0 0 20px #ff0040, 0 0 30px #ff0055, 0 0 40px #ff0022, 0 0 50px #ff0000, 0 0 60px #ff002b, 0 0 70px #ff0000, 0 0 90px #ff0000;
+ }
+ 
+ to {
+    color darkred;
+ }
+}
+@font-face{
+    font-family: 'marvel';
+    src: url(fonts/clearsans/ClearSans-Regular.ttf);
+}
+

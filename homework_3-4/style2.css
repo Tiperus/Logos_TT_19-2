@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+}
+.main{
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+ }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:lightgray;
+  }
+ .nav{
+   padding-left: 20px;
+ }
