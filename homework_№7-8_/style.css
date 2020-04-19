@@ -1,0 +1,404 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(255 235 205); 
+    color: sienna; 
+}
+nav{
+    width: 60%;
+    height: inherit;
+    background-color: rgb(255 235 205);
+    text-align: center;
+    line-height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav img{
+    height: 40%;
+}
+header{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.first{
+    margin-top: 0.94%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.62%;
+    height: auto;
+}
+.frts_but{
+    border: 1px solid sienna;
+    background-color:  rgb(255 235 205);
+    color: sienna;
+    font-size: 12px;
+    padding: 1%;
+    width: 40%;
+    height: 10%;
+    margin-top: 5%;
+    outline: none;
+}
+.frts_but:active{
+background-color: sienna;
+color: rgb(255 235 205);
+
+}
+.block-right img{
+    height: 100%;
+    width: 100%;
+}
+.block-right{
+    width: 50%;
+    height: inherit;
+}
+.block-left{ 
+    width: 50%;
+    height: inherit;
+    background-color: rgb(255 235 205);
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 5%; 
+    padding-right: 5%;
+}
+.block-left2{
+        width: 50%;
+        height: inherit;
+        background-color: rgb(255 235 205);
+        flex-direction: column;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        padding-left: 5%; 
+        padding-right: 5%;
+}
+.random {
+    
+width: 100%;
+margin-top: 10%;
+line-height: 42px;
+font-size: 28px;
+}
+.lst{
+    line-height: 21px;
+    font-size: 14px;
+}
+.datum{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    width: 100%;
+}
+.feature{
+margin-left: 10%;
+line-height: 27px;
+font-size: 18px;
+color: sienna;
+}
+.middle-blk{
+    margin: 0.7%;
+    margin-left: 6%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.part1{
+    display: flex;
+    flex-direction: column;
+     width: 48%; 
+}
+.right_1 img{
+width: 100%;
+}
+.part1 img{
+    width: 100%;
+}
+.right_1{
+    display: flex;
+    flex-direction: column;
+     width: 48%; 
+}
+
+.data{
+letter-spacing: 6px;
+}
+.style{
+    text-decoration: underline;
+}
+.what{
+    font-size: 24px;
+    line-height: 36px;
+}
+.the_last{
+    font-size: 18px;
+    line-height: 27px;
+}
+
+@media screen and (max-width:768px){
+    header{
+        height: 65px;
+    }
+ 
+  nav img{
+      height: 20%;
+  }
+    .svg3{
+        height: 20px;
+    }
+    .svg5{
+        height: 15px;
+    }
+    .random{
+        line-height: 27px;
+        font-size: 18px;
+    }
+    .lst{
+        line-height: 18px;
+        font-size: 14px;
+    }
+    .frts_but{
+        margin-bottom: 8%;
+    }
+
+    .what{
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .the_last{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .middle-blk{
+        margin-left: 5%;
+    }
+   
+
+  .bar3, .bar4, .bar5{
+      width: 32%;
+  }
+}
+
+
+/*-----------------320 px adopt-----------*/
+@media screen and (min-width:321px) {
+.issue{
+    font-size:30px ;
+}
+}
+
+@media screen and (max-width: 320px){
+
+
+    .issue{
+        font-size: 18px;
+    }
+    .part1{
+        width: 100%;
+    }
+    .right_1{
+        width: 100%;
+        
+    }
+    .block-right img{
+        width: 100%;
+    }
+    .block-left{
+        width: 100%;
+        height: inherit;
+    }
+    .btn{
+        margin-bottom: 10%;
+        margin-top: -5%;
+    }
+ .style{
+     display:none;
+ }
+ .feature{
+     display: none;
+ }
+    .block-right{
+        width: 100%;
+        height: inherit
+    }
+    .block-left2{
+        width: 100%;
+        height: inherit;   
+    }
+ .first{
+     flex-direction: row;
+     flex-wrap: wrap;
+ }
+
+ .middle-blk{
+     width: 90vw;
+ }
+ .threePc{
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    width: 90vw;
+    
+ }
+ .bar5{
+     min-width: 220px;
+ }
+ .margin3{
+     min-width: 220px;
+     margin-right: 5%;
+ }
+.bar3, .bar4{
+    margin-right: 6%;
+}
+.journal{
+    width: 100%;
+}
+.black-lft{
+    width: 100%; 
+}
+.block-right img{
+    width: 100%;
+}
+.block-left{
+    width: 100%;
+    height: inherit;
+}
+.journal img{
+    width: 100%;
+}
+.black-lft{
+    width: 100%;
+    height: inherit;
+}
+ }
+
+
+.bar3, .bar4, .bar5{
+    min-width: 220px;
+}
+
+.threePc{
+width:90%;
+margin-right: 10%;
+margin-left: 6%;
+margin-top: 1.76%;
+display: flex;
+flex-direction: row;
+ justify-content: space-between; 
+}
+.bar3, .bar4, .bar5{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.cloth img{
+    width:100%;
+}
+ .cloth{
+    width: 100%;
+    height: 60%;
+}
+.mdl{
+    width: 100%;
+    margin-top: 10%;
+}
+.lst_mdl{
+ margin-top: 2%;
+font-family: Kanit;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+color: sienna;
+text-transform: uppercase;
+}
+  
+.issue{
+margin-top: 25%;
+font-family: Kanit;
+font-style: normal;
+font-weight: 500;
+line-height: 51px;
+color: sienna;
+}
+.btn{
+ width: 34.6%;
+font-family: Kanit;
+font-style: normal;
+border: none;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+padding-top: 2%;
+padding-bottom: 2%;
+text-align: center;
+background-color: rgb(255 235 205);
+border: 1px solid sienna;
+color: sienna;
+}
+.inter{
+margin-left: 10.4%; 
+ font-family: Kanit;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+color: sienna;
+}
+   
+.btn:active{
+    background-color: sienna;
+    outline: none;
+    color:rgb(255 235 205) ;
+}
+ .news{
+ font-family: Kanit;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+text-transform: uppercase;
+color: sienna;
+}
+.news{
+ margin-left: 10.4%; 
+}
+.lst_btn{
+    width: 16.52%;
+    margin-left: 41.8%;
+    padding: 1%;
+    margin-right: 41.6%;
+    margin-top: 1.06%;
+    text-align: center;
+    background-color:sienna;
+    color: rgb(255 235 205);
+    outline: none;
+    border: 1px solid sienna;
+ 
+}
+.lst_btn:active{
+    background-color: rgb(255 235 205);
+color: sienna;
+}
+footer{
+    margin-top: 2.8%;
+    width: 100%;
+    height: 120px; 
+    text-align: center;
+    padding-top: 5%;
+    background-color: rgb(255 235 205);
+}
+
+    
