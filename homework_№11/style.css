@@ -1,0 +1,41 @@
+html,body {
+    height: 100%;
+   
+  }
+  *{
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+  }
+ 
+  
+  .navbar{
+      height: 80px;
+  }
+  .boot{
+      margin-top: 70px;
+      height: 100px;
+      background-color: rgb(96, 16, 170);
+  }
+  .lorem{
+      margin-top: 12%;
+      margin-left: 365px;
+  }
+  .col-1{
+background-color: rgb(241, 239, 243);
+border: 10px solid white;
+  }
+  .search{
+      position: absolute;
+      right: 10px;
+  }
+  .py-3{
+      position: absolute;
+      bottom: 0;
+      height: 100px;
+      background-color: rgb(224, 199, 246);
+      opacity: 0.5;
+  }
+  .menu{
+display: inline;
+  }
