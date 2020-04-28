@@ -22,8 +22,8 @@ if (test9==true){total++}
 let test10 = confirm ('Ганс Крістіан Андерсен жив у Данії')
 if (test10==true){total++}
  let summary = alert(total++);
- if (summary<=10 && summary>=7 ){ alert("Молодець, не даремно читав")}
- else if (summary<=7 && summary>=4){alert("Тобі варто зробити це знову")}
+ if (total++<=10 && total++>=7 ){ alert("Молодець, не даремно читав")}
+ else if (total++<=7 && total++>=4){alert("Тобі варто зробити це знову")}
  else{alert("Ехх ти.....а я думав ти читав")}
  
 
